@@ -39,7 +39,7 @@ const Footer = () => {
       >
         <source src={NatureVid} type="video/mp4" />
       </video>
-      <div className="container">
+      <div className="container mx-auto">
         <div className="grid md:grid-cols-3  py-5 backdrop-blur-sm bg-white/80 rounded-t-xl">
           <div className="py-8 px-4">
             <h1 className="flex items-center gap-3 text-xl sm:text-3xl font-bold text-justify sm:text-left">

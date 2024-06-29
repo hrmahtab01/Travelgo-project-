@@ -33,7 +33,7 @@ const Testomonial = () => {
   };
   return (
     <div className="p-10">
-      <div className="container">
+      <div className="container mx-auto">
         <div className="text-center mb-20 max-w-[400px] mx-auto">
           <p className="text-sm bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary">
             Testimonial
