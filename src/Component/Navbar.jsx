@@ -22,9 +22,9 @@ const Navbar = () => {
       link: "/#Location",
     },
   ];
-  let ToggoleMenu=()=>{
-    SetShowMenu(!ShowMenu)
-  }
+  let ToggoleMenu = () => {
+    SetShowMenu(!ShowMenu);
+  };
   return (
     <nav className="sticky top-0 right-0 w-full z-50 bg-white text-black shadow-md">
       <div className=" bg-gradient-to-r from-primary to-secondary text-white">
@@ -53,12 +53,8 @@ const Navbar = () => {
                   Home
                 </NavLink>
               </li>
-              <li className="py-4">
-                <NavLink
-                  activeClassName="active"
-                  to="/Blogs"
-                  onClick={() => window.scroll(0, 0)}
-                >
+              <li className="py-4" activeClassName="active">
+                <NavLink to="/blogs" onClick={() => window.scroll(0, 0)}>
                   Blogs
                 </NavLink>
               </li>
@@ -124,7 +120,7 @@ const Navbar = () => {
           </div>
         </div>
       </div>
-      <ResponsiveMenu SetShowMenu={SetShowMenu} ShowMenu={ShowMenu}/>
+      <ResponsiveMenu SetShowMenu={SetShowMenu} ShowMenu={ShowMenu} />
     </nav>
   );
 };

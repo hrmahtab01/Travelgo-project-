@@ -1,10 +1,13 @@
 import React from "react";
-import BlogsComponent from "../Component/BlogsComponent";
+
+import BlogsSecond from "../Component/BlogsSecond";
 
 const Blogs = () => {
   return (
-    <div className="min-h-screen pt-14 bg-gray-100">
-      <BlogsComponent />
+    <div className="min-h-[450px] pt-14 bg-gray-100">
+      <div>
+        <BlogsSecond />
+      </div>
     </div>
   );
 };
