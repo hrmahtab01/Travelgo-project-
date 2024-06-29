@@ -66,7 +66,7 @@ const Place = () => {
   ];
   return (
     <div className="bg-gray-50 py-10">
-      <div className="container">
+      <div className="container mx-auto">
         <div className="flex space-x-2">
           <div className="bg-primary/50 h-10 w-3 my-8 "></div>
           <h2 className="my-8   text-3xl font-bold">Best Places To Visit</h2>

@@ -36,7 +36,7 @@ const BlogsComponent = () => {
   ];
   return (
     <div>
-      <div className="container" data-aos="fade-up">
+      <div className="container mx-auto" data-aos="fade-up">
         <div className="flex items-center space-x-2">
           <div className="bg-primary/50 h-10 w-3 my-8"></div>
           <h1 className="text-3xl font-bold"> Our Latest Blogs</h1>
