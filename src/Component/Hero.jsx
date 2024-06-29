@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import Aos from "aos";
+import 'aos/dist/aos.css';
 const Hero = () => {
     let [PriceValue, SetPriceValue]=useState(40)
     useEffect (()=>{
@@ -9,9 +10,9 @@ const Hero = () => {
     <div className="bg-black/20 h-full">
       <div className="h-full flex justify-center items-center p-4 bg-primary/10">
         <div className="container grid grid-cols-1 gap-4">
-          <div className="text-white   mt-[250px]">
-            <p data-aos="fade-up">Our packages</p>
-            <p data-aos="fade-up"  data-aos-delay="600" className="font-bold text-3xl">Search Your Destination</p>
+          <div className="text-white   mt-[250px] ">
+            <p data-aos="fade-up " data-aos-delay="100" >Our packages</p>
+            <p data-aos="fade-up"  data-aos-delay="300" className="font-bold text-3xl">Search Your Destination</p>
           </div>
           <div className="space-y-4 bg-white rounded-md p-4 relative" data-aos="fade-up"  data-aos-delay="600">
             <div className="grid grid-cols-1 sm:grid-cols-3 py-3 space-x-4   items-center">
@@ -62,6 +63,9 @@ const Hero = () => {
                   onChange={(e) => SetPriceValue(e.target.value)}
                 />
               </div>
+            </div>
+            <div>
+                <button className="bg-gradient-to-r from-primary to-secondary text-white hover:scale-105 px-4 py-2 rounded-full duration-200 absolute -bottom-5 left-1/2 -translate-x-1/2">Search Now</button>
             </div>
           </div>
         </div>

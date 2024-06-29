@@ -1,6 +1,12 @@
 import React from "react";
 import NaturelVideo from "../assets/video/main.mp4";
 import Hero from "../Component/Hero";
+import Place from "../Component/Place";
+import BannerImg from "../Component/BannerImg";
+import Poster from "../assets/cover-women.jpg"
+import Poster2 from "../assets/travel-cover2.jpg"
+import Blogs from "./Blogs";
+import Banner from "../Component/Banner";
 
 const Home = () => {
   return (
@@ -19,6 +25,12 @@ const Home = () => {
             <Hero />
           </div>
         </div>
+          <Place/>
+          <BannerImg img={Poster}/>
+          <Blogs/>
+          <Banner/>
+          <BannerImg img={Poster2}/>
+
       </div>
     </>
   );

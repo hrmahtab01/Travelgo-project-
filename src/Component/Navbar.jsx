@@ -30,7 +30,7 @@ const Navbar = () => {
       <div className=" bg-gradient-to-r from-primary to-secondary text-white">
         <div className="container py-[2px] sm:block hidden">
           <div className=" flex justify-between ">
-            <p>20% off next on booking</p>
+            <p>20% off on next booking</p>
             <p>Mobaile number.94555255</p>
           </div>
         </div>
